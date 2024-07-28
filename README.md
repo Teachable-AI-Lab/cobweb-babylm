@@ -39,7 +39,7 @@ with a couple of argument options. Here I list some of the most curcial argument
 For more details just see the original Python script `cobweb-tr.py` or enter `python3 cobweb-tr.py --h`.
 
 
-#### Evaluation
+### Evaluation
 
 To evaluate the model, we use the evaluation pipeline `lm-eval` used by the BabyLM Challenge. The detail of the pipeline is available [here](https://github.com/EleutherAI/lm-evaluation-harness). The BabyLM evaluation repo (folked from the original `lm-eval`) is available [here](https://github.com/babylm/evaluation-pipeline-2024). The evaluation pipeline used here is at `./lm-evaluation-harness`, and please check `./lm-evaluation-harness/README.md` for more details.
 
