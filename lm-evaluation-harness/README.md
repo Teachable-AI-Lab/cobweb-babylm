@@ -1,3 +1,14 @@
+# Language Model Evaluation Harness + Cobweb
+
+The next section is the original `README.md` cloned from the original repo. This section is introduced for additional information of how Cobweb can be used as performance in the repo.
+
+Cobweb is *not* a deep learning model, not fully compatiable with any pipeline designed for a neural-network based model, and is not available via Hugging Face for now. We have to load the trained model and build up the performance module in our own within the evaluation pipeline. If you are curious of how a new model should be introduced, see `./docs/model_guide.md`.
+
+The performance module is available at `./lm_eval/models/cobweb_lm.py`. You can check the original script for perfomance functions.
+
+To do seperate single test (instead of running the whole evalulation pipeline with stacked tasks), make necessary changes and run `./single-test.py`.
+
+
 # Language Model Evaluation Harness
 
 ## Overview
